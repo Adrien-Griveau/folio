@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('../fonts/VCR_OSD_MONO_1.001.woff2') format('woff2'),
+         url('../fonts/VCR_OSD_MONO_1.001.woff') format('woff'),
+         url('../fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
+
+.linear-bg {
+    width: 100%;
+    position: absolute;
+    top: 0 0 0 0;
+    left: 0;
+    z-index: -10;
+    display: block;
+    background-color: var(--color-background);
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+
+}
+.linear-text{
+    font-family: 'VCR_OSD_Mono';
+    font-size: 28vw;
+    color: var(--color-fade);
+    text-align: center;
+    opacity: 0.07;
+}
+.content {
+    margin-top: 410px;
+}
+.linear-title-text {
+    font-family: "VCR OSD Mono", monospace;
+    font-size: 44px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "VCR OSD Mono", monospace;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    min-width: 152px;
+    margin: 0px 0px 0px 0px;
+    align-items: top;
+    vertical-align: top;
+    color: var(--color-title);
+}
+
+
+.linear-br{
+    display: block;
+    margin:22px 0px 0px 0px;
+    padding: 0px;
+    font-size: 13px;
+    color: var(--color-fade);
+    font-family: 'iAWriterQuattroS-Regular', sans-serif;
+}
+.linear-br a{
+    margin-left: 16px;
+    color: var(--color-base);
+}
+.linear-year-header p{
+    font-size: 16px;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+section{
+    margin: 60px 0px 120px 0px;
+}
+
+.linear-header {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    gap: 22px;
+}
+.linear-header p{
+    margin: -4px 0px 0px 0px;
+    padding: 0px;
+    color: var(--color-muted);
+}
+.linear-header img{
+    margin-top: 24px;
+    max-width: 588px;
+}
+.linear-title-text {
+    font-family: "VCR OSD Mono", monospace;
+    font-size: 32px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.linear-subtitle {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .linear-header {
+        flex-direction: row;
+        align-items: top;
+    }
+
+    .linear-subtitle {
+        margin-left: 0px;
+    }
+}
+
+.linear-content {
+    margin-top: 100px;
+    display: block;
+}
+
+.linear-content .intro{
+    margin-top: 2vw;
+}
+
+.linear-img{
+    margin: 1vw 0vw 1.2vw 0vw;
+}
