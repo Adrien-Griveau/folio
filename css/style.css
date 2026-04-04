@@ -42,6 +42,7 @@
 
 body {
     font-family: 'iAWriterQuattroS-Regular', sans-serif;
+    font-size: 15px;
     margin: 0;
     padding: 0;
     background-color: var(--color-background);
@@ -61,12 +62,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     font-weight: inherit;
-    font-size: inherit;
     color: inherit;
     text-transform: none;
     font-family: 'iAWriterQuattroS-Regular';
     color: var(--color-muted);
-    font-size: 14px;
+    font-size: 15px;
 }
 
 h3 {
@@ -110,14 +110,14 @@ header {
     margin: 0 auto;
     padding: 20px;
     flex-grow: 1;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 footer {
     color: #aaa;
     padding: 100px 0px;
     margin-top: auto;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 footer a {
@@ -127,6 +127,7 @@ footer a {
 }
 
 footer a:hover {
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -158,6 +159,10 @@ a {
     color: #BFB3AA;
 }
 
+a:hover {
+    color: var(--color-base);
+}
+
 .muted {
     color: var(--color-muted);
 }
@@ -169,8 +174,8 @@ a {
 /* New .intro class */
 .intro {
     color: var(--color-title);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22.5px;
 }
 
 .content {
